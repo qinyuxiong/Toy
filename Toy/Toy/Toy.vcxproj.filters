@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{1c003b75-edf6-4637-9f15-b73995517d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Header">
+      <UniqueIdentifier>{a3ff1059-8d78-47a0-9928-68a05b795c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Source">
+      <UniqueIdentifier>{14c3744a-eed7-4337-a707-9f9ff0fcb7ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{a6484b5e-0127-4548-8110-beed84e6e398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\VertexShader">
+      <UniqueIdentifier>{3bf3e0b6-b306-4b8b-8006-5457bbe670d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\VertexShader\Header">
+      <UniqueIdentifier>{3f22c3e7-ffe0-4b2b-8556-23c7dc46e7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\VertexShader\Source">
+      <UniqueIdentifier>{65af3ae2-97d3-45af-a924-2d7c388cff9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\GeometryShader">
+      <UniqueIdentifier>{38b8903a-7a9e-474e-a2b9-5b2330ff9b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\GeometryShader\Header">
+      <UniqueIdentifier>{8c9fdb05-ffdd-45f2-8062-62211b3844b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\GeometryShader\Source">
+      <UniqueIdentifier>{2653153a-e30b-4946-ac6e-58c5a7f6109a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataModel">
+      <UniqueIdentifier>{97ce0f9b-a56f-49d0-8785-cd2758e7d29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataModel\Header">
+      <UniqueIdentifier>{5f4345a3-b783-4fd1-b661-d58171388f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataModel\Source">
+      <UniqueIdentifier>{581ffcdb-778d-4764-9769-3744cb80749e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\FragmentShader">
+      <UniqueIdentifier>{f3677d77-ca33-458f-99db-0b9935b2ac08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\FragmentShader\Header">
+      <UniqueIdentifier>{0fca743b-2669-47ef-92a5-c3c6787e7d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\FragmentShader\Source">
+      <UniqueIdentifier>{e9031d69-a2eb-4235-89e0-c7c2f9f3868d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PipeLine">
+      <UniqueIdentifier>{48ccf30c-70a3-441c-8f74-cced3f9afb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PipeLine\Header">
+      <UniqueIdentifier>{37da66ee-1cc9-41e4-a557-ef7db0eafe60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PipeLine\Source">
+      <UniqueIdentifier>{e1906e10-f499-4aa5-9525-b801a6363de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example">
+      <UniqueIdentifier>{8b1e2c99-708c-4dc4-959f-6c16b131c766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Header">
+      <UniqueIdentifier>{d57323ce-9d77-45ae-b2b0-48d67144527a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Example\Source">
+      <UniqueIdentifier>{fb1e9652-efad-4013-b3a1-177b6e4cc9c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TMatrix.h">
+      <Filter>Math\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TVector.h">
+      <Filter>Math\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TVertexShader.h">
+      <Filter>Shader\VertexShader\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TGeometryShader.h">
+      <Filter>Shader\GeometryShader\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TVertex.h">
+      <Filter>DataModel\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TPipeLine.h">
+      <Filter>PipeLine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>DataModel\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Example\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TFragmentShader.h">
+      <Filter>Shader\FragmentShader\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>DataModel\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TMatrix.cpp">
+      <Filter>Math\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVector.cpp">
+      <Filter>Math\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVertexShader.cpp">
+      <Filter>Shader\VertexShader\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TGeometryShader.cpp">
+      <Filter>Shader\GeometryShader\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TVertex.cpp">
+      <Filter>DataModel\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TPipeLine.cpp">
+      <Filter>PipeLine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>DataModel\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Example\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Example.cpp">
+      <Filter>Example\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TFragmentShader.cpp">
+      <Filter>Shader\FragmentShader\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>DataModel\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
